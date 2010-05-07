@@ -558,7 +558,7 @@ jQuery.extend({
 		} else {
 			if ( isObj ) {
 				for ( name in object ) {
-                    value = object[ name ];
+					value = object[ name ];
 					if ( callback.call( value, name, value ) === false ) {
 						break;
 					}
